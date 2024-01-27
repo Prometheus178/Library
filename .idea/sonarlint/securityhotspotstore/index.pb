@@ -54,3 +54,5 @@ Q.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f387372
 Q.idea/sonarlint/securityhotspotstore/9/d/9d5c6012933103b157c82fbf025c3222f4763ead,9/2/9243bb8cb57171d95a5e793d277a5ecb08c35214
 Å
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2/c/2cabb939da04d3de3a200bf2b575690e1a16316d
+K
+.idea/artifacts/unnamed.xml,1/9/1966c7725f0ebb781ef90ce00598bcf3235153b6
