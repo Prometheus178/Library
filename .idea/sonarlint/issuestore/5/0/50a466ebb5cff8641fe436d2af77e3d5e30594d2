@@ -1,0 +1,16 @@
+
+0
+java:S1220""Move this file to a named package.
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(é¬‹
+Z
+java:S2147"DCombine this catch with the one at line 20, which has the same body.(É®£
+E	java:S106"+Replace this use of System.out by a logger.(áË³úÿÿÿÿ
+V
+java:S1128";Remove this unused import 'javax.servlet.http.HttpServlet'.(û÷Å›ÿÿÿÿÿ
+X
+java:S1128"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…
+Y
+java:S1128"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïë
