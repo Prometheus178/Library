@@ -1,4 +1,0 @@
-<ResourceLink name="jdbc/lib"
-              global="jdbc/library"
-              auth="Container"
-              type="javax.sql.DataSource" />
