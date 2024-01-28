@@ -14,12 +14,8 @@ w
 G.idea/sonarlint/issuestore/1/a/1a273f73b7a477b0745593641bd708a6182c7ad5,d/8/d8b366b881b9b013c97b3b87cc0f3b2b80eddd36
 7
 gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
-Å
-Q.idea/sonarlint/securityhotspotstore/5/0/50a466ebb5cff8641fe436d2af77e3d5e30594d2,a/7/a7132040710a5d13d6e9504cdf8dc0cdd9507226
 w
 G.idea/sonarlint/issuestore/9/d/9d5c6012933103b157c82fbf025c3222f4763ead,b/e/be9cff3543501414c02d226c008dc7097ecc0a11
-Å
-Q.idea/sonarlint/securityhotspotstore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10,9/0/90b119420229d7039add28319c2a0ee951218c45
 ;
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 w
@@ -37,8 +33,6 @@ Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf302663
 k
 ;src/test/java/com/demo/library/LibraryApplicationTests.java,0/5/05867c433f4efee81ae66121e4b14860e851c275
 w
-G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482
-w
 G.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233,3/c/3c8c56407c35e5f5ebbd6c7250a79af8128a13a6
 f
 6src/main/java/com/demo/library/LibraryApplication.java,7/9/79e59b44ca1a2406067a05db3a21fe7cd3b5b340
@@ -46,8 +40,6 @@ f
 Q.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233,2/5/2534b7ffebad46793fc4d77da07aca83b23dd835
 Å
 Q.idea/sonarlint/securityhotspotstore/9/d/9d5c6012933103b157c82fbf025c3222f4763ead,9/2/9243bb8cb57171d95a5e793d277a5ecb08c35214
-Å
-Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2/c/2cabb939da04d3de3a200bf2b575690e1a16316d
 K
 .idea/artifacts/unnamed.xml,1/9/1966c7725f0ebb781ef90ce00598bcf3235153b6
 a
