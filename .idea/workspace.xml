@@ -9,13 +9,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a881b5c3-1f4c-433e-abcd-55ba9d1b396e" name="Default Changelist" comment="updated settings">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Zipcode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+    <list default="true" id="a881b5c3-1f4c-433e-abcd-55ba9d1b396e" name="Default Changelist" comment="repositories">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/CityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/ZipcodeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -210,6 +209,9 @@
       </list>
     </option>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -303,33 +305,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.Library [:LibraryApplication.main()].executor": "Run",
-    "Gradle.Library [bootTestRun].executor": "Run",
-    "Gradle.Library [dependencies].executor": "Run",
-    "Maven.library [clean].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "jdk.selected.JAVA_MODULE": "jbrsdk_jcef-17",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36091954",
-    "settings.editor.selected.configurable": "com.haulmont.jpb.dtoDeclaration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Library [:LibraryApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Library [bootTestRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Library [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbrsdk_jcef-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sergey/Documents/projects/Library/src/main/java/com/demo/library&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36091954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.dtoDeclaration&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/demo/library" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryApplication">
+  <component name="RunManager" selected="Gradle.Library [bootRun]">
     <configuration name="LibraryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.library.LibraryApplication" />
       <module name="library" />
@@ -349,6 +355,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Library [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="Library [bootTestRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -549,11 +577,13 @@
     <list>
       <item itemvalue="Application.LibraryApplication" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.Library [bootRun]" />
       <item itemvalue="Gradle.Library [bootTestRun]" />
       <item itemvalue="Gradle.Library [dependencies]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Library [bootRun]" />
         <item itemvalue="Gradle.Library [dependencies]" />
         <item itemvalue="Gradle.Library [bootTestRun]" />
         <item itemvalue="Application.LibraryApplication" />
@@ -623,7 +653,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706433998365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added entity">
+      <option name="closed" value="true" />
+      <created>1706442869088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706442869088</updated>
+    </task>
+    <task id="LOCAL-00007" summary="repositories">
+      <option name="closed" value="true" />
+      <created>1706443853013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706443853013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -688,7 +734,10 @@
     <MESSAGE value="replaced to gradle" />
     <MESSAGE value="upda" />
     <MESSAGE value="updated settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated settings" />
+    <MESSAGE value="relations" />
+    <MESSAGE value="added entity" />
+    <MESSAGE value="repositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="repositories" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resource/context.xml" />

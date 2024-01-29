@@ -10,16 +10,12 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
-@Table(name = "category")
+@Table(name = "Book")
 public class Book {
-
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     private String name;
-
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinTable(
             name = "book_author",
@@ -28,7 +24,7 @@ public class Book {
     )
     private List<Author> authors = new ArrayList<>();
 
-    @ManyToOne(cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
     private Category category;
 
@@ -38,5 +34,11 @@ public class Book {
         this.category = category;
     }
 
+    public void addAuthor(Author author) {
+        authors.add(author);
+    }
 
+    public void deleteAuthor(Author author) {
+        authors.remove(author);
+    }
 }
