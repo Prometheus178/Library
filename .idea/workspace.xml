@@ -9,15 +9,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a881b5c3-1f4c-433e-abcd-55ba9d1b396e" name="Default Changelist" comment="repositories">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/CategoryController.java" afterDir="false" />
+    <list default="true" id="a881b5c3-1f4c-433e-abcd-55ba9d1b396e" name="Default Changelist" comment="corrected relations">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/CityController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/ZipcodeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/library/LibraryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/LibraryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,12 @@
                 <item name="Library" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Library" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -309,8 +314,12 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.LibraryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Library.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Library [:LibraryApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Library [bootRun].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Library [bootTestRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Library [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Library [dependencies].executor&quot;: &quot;Run&quot;,
     &quot;Maven.library [clean].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -319,7 +328,7 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbrsdk_jcef-17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sergey/Documents/projects/Library/src/main/java/com/demo/library&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sergey/Documents/projects/Library/src/main/java/com/demo/library/entity&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.36091954&quot;,
@@ -328,30 +337,31 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/demo/library/entity" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/demo/library" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.library.controller" />
+      <recent name="com.demo.library" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.Library [bootRun]">
     <configuration name="LibraryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="jbrsdk_jcef-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.demo.library.LibraryApplication" />
-      <module name="library" />
+      <module name="Library" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.library.*" />
+          <option name="PATTERN" value="com.demo.library.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="library" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -390,6 +400,28 @@
         <option name="taskNames">
           <list>
             <option value="bootTestRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Library [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -576,18 +608,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LibraryApplication" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.Library [bootRun]" />
+      <item itemvalue="Gradle.Library [clean]" />
       <item itemvalue="Gradle.Library [bootTestRun]" />
       <item itemvalue="Gradle.Library [dependencies]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Library [bootRun]" />
+        <item itemvalue="Gradle.Library [clean]" />
+        <item itemvalue="Application.LibraryApplication" />
         <item itemvalue="Gradle.Library [dependencies]" />
         <item itemvalue="Gradle.Library [bootTestRun]" />
-        <item itemvalue="Application.LibraryApplication" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -669,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706443853013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="corrected relations">
+      <option name="closed" value="true" />
+      <created>1706502303019</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706502303019</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -737,7 +777,19 @@
     <MESSAGE value="relations" />
     <MESSAGE value="added entity" />
     <MESSAGE value="repositories" />
-    <option name="LAST_COMMIT_MESSAGE" value="repositories" />
+    <MESSAGE value="corrected relations" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected relations" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/library/controller/ZipcodeController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resource/context.xml" />
