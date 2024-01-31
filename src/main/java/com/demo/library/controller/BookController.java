@@ -3,7 +3,6 @@ package com.demo.library.controller;
 import com.demo.library.entity.Author;
 import com.demo.library.entity.Book;
 import com.demo.library.entity.Category;
-import com.demo.library.entity.Zipcode;
 import com.demo.library.repository.AuthorRepository;
 import com.demo.library.repository.BookRepository;
 import com.demo.library.repository.CategoryRepository;
@@ -28,16 +27,17 @@ public class BookController {
     private BookRepository bookRepository;
 
     @PostMapping()
-    public Book create(@RequestBody Book author) {
+    public Book create(@RequestBody Book book) {
         Iterable<Author> all = authorRepository.findAll();
         if (all.iterator().hasNext()){
-            author.addAuthor(all.iterator().next());
+            book.addAuthor(all.iterator().next());
         }
         Iterable<Category> categories = categoryRepository.findAll();
         if (categories.iterator().hasNext()){
-            author.setCategory(categories.iterator().next());
+            book.setCategory(categories.iterator().next());
         }
-        return bookRepository.save(author);
+        Book save = bookRepository.save(book);
+        return save;
     }
 
     @GetMapping()

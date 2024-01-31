@@ -1,14 +1,17 @@
 package com.demo.library.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @Table(name = "Book")
 public class Book {
@@ -17,6 +20,7 @@ public class Book {
     private Long id;
     private String name;
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+
     @JoinTable(
             name = "book_author",
             joinColumns = @JoinColumn(name = "book_id"),
@@ -26,6 +30,7 @@ public class Book {
 
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
+    @JsonIgnore
     private Category category;
 
     public Book(String name, List<Author> authors, Category category) {
