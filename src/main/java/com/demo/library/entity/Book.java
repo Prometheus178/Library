@@ -19,8 +19,8 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "book_author",
             joinColumns = @JoinColumn(name = "book_id"),
@@ -28,7 +28,7 @@ public class Book {
     )
     private List<Author> authors = new ArrayList<>();
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
     @JsonIgnore
     private Category category;

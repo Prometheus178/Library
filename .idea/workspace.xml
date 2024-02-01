@@ -9,13 +9,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a881b5c3-1f4c-433e-abcd-55ba9d1b396e" name="Default Changelist" comment="rest for manytoone">
+    <list default="true" id="a881b5c3-1f4c-433e-abcd-55ba9d1b396e" name="Default Changelist" comment="fixed stackoverflow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Zipcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/library/entity/Zipcode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -317,7 +314,7 @@
     "Application.LibraryApplication.executor": "Run",
     "Gradle.Build Library.executor": "Run",
     "Gradle.Library [:LibraryApplication.main()].executor": "Run",
-    "Gradle.Library [bootRun].executor": "Debug",
+    "Gradle.Library [bootRun].executor": "Run",
     "Gradle.Library [bootTestRun].executor": "Run",
     "Gradle.Library [clean].executor": "Run",
     "Gradle.Library [dependencies].executor": "Run",
@@ -725,7 +722,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706591966520</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed stackoverflow">
+      <option name="closed" value="true" />
+      <created>1706676760848</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706676760848</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -796,23 +801,15 @@
     <MESSAGE value="corrected relations" />
     <MESSAGE value="rest for onetoone" />
     <MESSAGE value="rest for manytoone" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest for manytoone" />
+    <MESSAGE value="fixed stackoverflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed stackoverflow" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/demo/library/controller/BookController.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/demo/library/controller/BookController.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.demo.library.entity.Category" memberName="books" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resource/context.xml" />
